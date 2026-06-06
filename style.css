@@ -1,0 +1,78 @@
+body {
+  background-color: #f0f2f5;
+}
+
+/* ===== MỖI DÒNG TASK ===== */
+.task-item {
+  border-bottom: 1px solid #e9ecef;
+  padding: 12px 4px;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-label {
+  font-size: 11px;
+  color: #aaa;
+  margin-bottom: 2px;
+}
+
+.task-name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ===== MÀU PRIORITY ===== */
+.priority-High {
+  color: #dc3545;
+  font-weight: 600;
+}
+.priority-Medium {
+  color: #fd7e14;
+  font-weight: 600;
+}
+.priority-Low {
+  color: #198754;
+  font-weight: 600;
+}
+
+/* ===== BADGE STATUS ===== */
+.badge-status {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #333;
+  white-space: nowrap;
+}
+
+/* ===== NÚT PRIORITY TRONG FORM ===== */
+.btn-priority {
+  border: 1px solid #ccc;
+  background: white;
+  color: #333;
+  border-radius: 20px;
+  padding: 3px 14px;
+}
+
+.btn-priority.active-priority {
+  background: #212529;
+  color: white;
+  border-color: #212529;
+}
+
+/* ===== ICON ACTIONS ===== */
+.btn-icon {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 4px;
+  color: #555;
+}
+
+.btn-icon:hover {
+  color: #000;
+}
